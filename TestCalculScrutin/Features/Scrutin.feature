@@ -35,7 +35,7 @@
 	| candidat 1 | 1              | 100         |
 	| candidat 2 | 0              | 0           |
 
-Scenario: Scrutin majoritaire deux électeurs, pas de vainqueur au premier tour et vainqueur au second tour
+Scenario: Scrutin majoritaire, pas de vainqueur au premier tour et vainqueur au second tour
 	Given les candidats suivants
 		| Nom        | DateDeNaissance |
 		| candidat 1 | Jan 1, 1999     |
@@ -72,7 +72,7 @@ Scenario: Scrutin majoritaire deux électeurs, pas de vainqueur au premier tour 
 	| candidat 1 | 1              | 25          |
 	| candidat 3 | 3              | 75          |
 
-Scenario: Scrutin majoritaire deux électeurs, pas de vainqueur au premier tour et pas de vainqueur au second tour
+Scenario: Scrutin majoritaire, pas de vainqueur au premier tour et pas de vainqueur au second tour
 	Given les candidats suivants
 		| Nom        | DateDeNaissance |
 		| candidat 1 | Jan 1, 1999     |
@@ -113,7 +113,7 @@ Scenario: Scrutin majoritaire deux électeurs, pas de vainqueur au premier tour 
 
 
 	#bonus
-Scenario: Scrutin majoritaire deux électeurs, pas de vainqueur au premier tour et égalité sur les 2eme et 3eme candidat
+Scenario: Scrutin majoritaire, pas de vainqueur au premier tour et égalité sur les 2eme et 3eme candidat
 	Given les candidats suivants
 	| Nom        | DateDeNaissance |
 	| candidat 1 | Jan 1, 1999     |
